@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>PetShop</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header class="borda">
+        <img class="cachoro" src="img/dog.png" class="logo">
+        <p class="logo borda">DogShop</p>
+    </header>
+    <nav>
+        <img onmousemove="visivel('s1')" id="racao1" src="img/braveco.png" class="racao">
+        <img onmousemove="visivel('s2')" id="racao2" src="img/golden.png" class="racao">
+        <img onmousemove="visivel('s3')" id="racao3" src="img/hilt.png" class="racao">
+        <img onmousemove="visivel('s4')" id="racao4" src="img/prolan.png" class="racao">
+        <span class="invisivel" id="s1">Valor R$55,50</span> 
+        <span class="invisivel" id="s2">Valor R$69,90</span>
+        <span class="invisivel" id="s3">Valor R$49,90</span>
+        <span class="invisivel" id="s4">Valor R$37,80</span>
+    </nav>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
+
+<script>
+
+    	
+    var botao = document.querySelector("#racao1.racao");
+ 
+    botao.onclick = function () {
+     alert("Valor R$55,50");
+    }; 
+
+    var botao = document.querySelector("#racao2.racao");
+ 
+    botao.onclick = function () {
+     alert("Valor R$69,90");
+    }; 
+
+    var botao = document.querySelector("#racao3.racao");
+ 
+    botao.onclick = function () {
+     alert("Valor R$49,90");
+    }; 
+
+    var botao = document.querySelector("#racao4.racao");
+ 
+    botao.onclick = function () {
+     alert("Valor R$37,80");
+    }; 
+
+    
+    var s1 =  document.querySelector("#s1")
+    var s2 =  document.querySelector("#s2")
+    var s3 =  document.querySelector("#s3")
+    var s4 =  document.querySelector("#s4")
+    function visivel(e){
+        s1.classList.add('invisivel');
+        s2.classList.add('invisivel');
+        s3.classList.add('invisivel');
+        s4.classList.add('invisivel');
+        document.querySelector("#"+e).classList.remove('invisivel');
+    }
+</script>

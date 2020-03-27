@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    position: relative;
+    height: 102px;
+    font-family: Ribeye;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 75px;
+    color: #7DBAA5;
+    left: 542px;
+    top: -100px;
+}
+
+.cachoro {
+    width: 125px;
+}
+
+.racao{
+    position: relative;
+    width: 105px;
+    top: 90px;
+}
+
+#racao1{
+    left: 300px;
+}
+
+#racao2{
+    left: 400px;
+}
+
+#racao3{
+    left: 500px;
+}
+
+#racao4{
+    left: 600px;
+}
+
+header {
+    width: 100%;
+    height: 126px;
+    background: #E87C7C;
+}
+
+body{
+    background-color: #bcf1fd;
+}
+
+span{
+    POSITION: RELATIVE;
+    TOP: 120PX;
+    LEFT: -110PX;
+}
+
+#s2{
+    left: 96px;
+}
+
+#s3{
+    left: 306px;
+}
+
+#s4{
+    left: 515px;
+}
+
+.invisivel{
+    display: none;
+}
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 66px;
+    background: #E87C7C;
+    top: 574px;
+}
